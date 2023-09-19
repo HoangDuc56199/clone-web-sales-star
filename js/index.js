@@ -67,3 +67,4 @@ createCarousel('carousel-04', '.carousel-even', '.carousel-even-child', '.produc
 createCarousel('form-02-right', '.carousel-even-form-2-right', '.carousel-even-child-form-2', '.product-item');
 createCarousel('form-02-left', '.carousel-even-form-2-left', '.carousel-even-form-2-banner-left', '.banner-link-form-2');
 
+console.log("hello");
