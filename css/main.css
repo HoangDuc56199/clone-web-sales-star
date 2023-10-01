@@ -425,16 +425,18 @@ body {
 .banner-right-item a img, 
 .banner-right-item a,
 .container-banner-right-bottom-item a img,
-.container-banner-right-bottom-item a{
+.container-banner-right-bottom-item a
+{
     width: 100%;
     height: 100%;
 }
+
 .carousel a img,
 .container-banner-right-bottom-item a img,
 .banner-right-item a img {
     border-radius: 8px;
 }
-.banner-right-item.top {
+.banner-right-item:first-child {
     margin-bottom: 5px;
 }
 .container-banner-right-bottom {

@@ -45,7 +45,8 @@ function createCarousel(containerId,carouselClass,childOfClass,slideItemClass) {
     currentIndex = (currentIndex - 1 + (lenghtAllItem -(Math.round(lenghtContainer/lenghtItem) -1))) % 
     (lenghtAllItem - (Math.round(lenghtContainer/lenghtItem) -1));
     currentIndex = Math.round(currentIndex);
-    updateCarousel();
+      updateCarousel();
+      console.log(lenghtAllItem - (Math.round(lenghtContainer/lenghtItem) -1));
   });
   Math.round(lenghtContainer/lenghtItem)
   nextButton.addEventListener('click', () => {
@@ -66,5 +67,3 @@ createCarousel('carousel-03', '.carousel-even', '.carousel-even-child', '.produc
 createCarousel('carousel-04', '.carousel-even', '.carousel-even-child', '.product-item');
 createCarousel('form-02-right', '.carousel-even-form-2-right', '.carousel-even-child-form-2', '.product-item');
 createCarousel('form-02-left', '.carousel-even-form-2-left', '.carousel-even-form-2-banner-left', '.banner-link-form-2');
-
-console.log("hello");
